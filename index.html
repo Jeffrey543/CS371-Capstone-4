@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>IMDb Top 1000 TV Series</title>
+<script src="client.js"></script>
+</head>
+
+<body>
+<h1>IMDb Top 1000 TV Series</h2>
+
+<h2>Get Movie</h2>
+<label for="get-id">Movie ID:</label>
+<input type="text" id="get-id"/>
+<button id="get-btn">Get Movie</button>
+<p id="get-result"></p>
+
+<h2>Add Movie</h2>
+<form id="add-movie-form">
+<label for="movie-id">ID:</label>
+<input type="text" id="movie-id" required/>
+<label for="movie-title">Title:</label>
+<input type="text" id="movie-title" required />
+<label for="movie-genres">Genres:</label>
+<input type="text" id="movie-genres" required />
+<label for="movie-rating">Average Rating:</label>
+<input type="number" id="movie-rating" step="0.1" required />
+<label for="movie-votes">Num Votes:</label>
+<input type="number" id="movie-votes" required />
+<label for="movie-year">Release Year:</label>
+<input type="number" id="movie-year" required />
+<button id="add-btn">Add Movie</button>
+</form>
+<p id="add-result"></p>
+
+<h2>Delete Movie</h2>
+<label for="delete-id">Movie ID:</label>
+<input type="text" id="delete-id"/>
+<button id="delete-btn">Delete Movie</button>
+<p id="delete-result"></p>
+
+
+</body>
+</html>
